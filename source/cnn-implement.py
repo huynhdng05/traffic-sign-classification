@@ -10,7 +10,7 @@ app = FastAPI()
 
 # --- CẤU HÌNH ---
 # 1. Đường dẫn mô hình
-MODEL_PATH = "vit_gtsrb_final.keras"
+MODEL_PATH = "cnn_traffic_sign_model.keras"
 
 # 2. Danh sách 43 biển báo giao thông (Thứ tự chuẩn bộ dữ liệu GTSRB)
 CLASSES = [
